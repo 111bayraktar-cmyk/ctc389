@@ -30,8 +30,7 @@ if x==2:
     y = int(input("Select the student number you want to modify :"))
     z = input("Enter the modifed name : ")
 
-    slist.pop(y-1)
-    slist.insert(y-1, z)
+    slist[y-1]=z
     
     print ("~~~ New Student List ~~~")
     count2=1
