@@ -64,7 +64,7 @@ def game():
         if stop == 3:
             print("Wholefoods! Our menu items are:")
             count4 = 1
-            menu4 = ["Falafel + salad", "Lentil soup + bean salad", "Ice cream filled brownies"]
+            menu4 = ["Falafel + salad", "Lentil soup + bean salad", "Ice cream-filled brownies"]
             for i in menu4:
                 print(count4, i)
                 count4 = count4 + 1
@@ -102,7 +102,7 @@ def game():
         print("You collapse onto the couch. The doctor says you are prediabetic and have high blood pressure. Time for a diet change!")
 
 
-play = input("Would you like to eat something? ")
+play = input("Would you like to eat something? type: yes or no ")
 
 while play == "yes":
     game()
