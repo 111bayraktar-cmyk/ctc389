@@ -106,6 +106,6 @@ play = input("Would you like to eat something? ")
 
 while play == "yes":
     game()
-    play = input("Please enter -yes- if you are still hungyn! ")
+    play = input("Please enter -yes- if you are still hungary! ")
 else:
     print("Bye!")
